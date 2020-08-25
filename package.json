@@ -1,16 +1,27 @@
 {
-  "name": "ts-algo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "ts-node": "^9.0.0"
-  }
+    "name": "ts-algo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^26.4.2",
+        "ts-jest": "^26.2.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.10",
+        "prettier": "^2.1.0",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.2"
+    },
+    "type": "module",
+    "jest": {
+        "preset": "ts-jest",
+        "testEnvironment": "node"
+    }
 }
