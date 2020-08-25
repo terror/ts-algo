@@ -1,2 +1,3 @@
-import { binarySearch } from './Searching/binarysearch';
-export { binarySearch };
+import { binarySearch } from './Searching/binarySearch';
+import { dfs } from './Graph/dfs';
+export { binarySearch, dfs };
